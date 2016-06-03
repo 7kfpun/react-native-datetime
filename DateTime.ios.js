@@ -106,10 +106,6 @@ export default class DateTimePicker extends Component {
                             style={styles.button}>
                             <Text>{ this.props.okText }</Text>
                         </TouchableOpacity>
-                        <TouchableOpacity
-                            style={styles.touchableOpacity}
-                            activeOpacity={1}
-                            onPress={()=>this.onClose()} />
                     </View>
                 </View>
             );
